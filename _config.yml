@@ -1,0 +1,21 @@
+title: Michael AI News
+description: AI hardware, edge AI, companion robots, AI toys, and consumer electronics daily briefing.
+url: "https://aihunannan.github.io"
+baseurl: "/Michael-AI-News"
+
+theme: jekyll-theme-cayman
+markdown: kramdown
+future: true
+
+plugins:
+  - jekyll-feed
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
