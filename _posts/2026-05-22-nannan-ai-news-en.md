@@ -1,131 +1,242 @@
 ---
 layout: default
-title: "Nannan Daily AI Briefing: 5 Important Signals"
+title: "Nannan Daily AI Briefing: 10 Important Signals"
 date: 2026-05-22 12:01:00 +0800
 lang: en
-description: "Selected 5 important signals from 47 items, with emphasis on general AI, AI hardware, edge AI, companion robots, AI toys, and AI consumer electronics."
+description: "Selected 10 important signals from 63 items, prioritized through the aiwei.ai CTO lens: Kickstarter, AI consumer hardware, edge AI, AI companionship, robotics, and AI toys."
 ---
 
-# Nannan Daily AI Briefing: 5 Important Signals
+# Nannan Daily AI Briefing: 10 Important Signals
 
-> Selected 5 important signals from 47 items, with emphasis on general AI, AI hardware, edge AI, companion robots, AI toys, and AI consumer electronics.
+> Selected 10 important signals from 63 items, prioritized through the aiwei.ai CTO lens: Kickstarter, AI consumer hardware, edge AI, AI companionship, robotics, and AI toys.
 
 ---
 
-1. [Waymo Halts Atlanta Robotaxi Service Due to Flooding Issues](#item-1) ⭐️ 8.0/10
-2. [FANUC Teams with Google to Enhance Robot AI](#item-2) ⭐️ 8.0/10
-3. [Humanoid Teams Up with Bosch and Schaeffler for Robot Production](#item-3) ⭐️ 8.0/10
-4. [Open-Source Software Boosts Robotic Intelligence](#item-4) ⭐️ 8.0/10
-5. [AMD's $10B Investment in Taiwan for AI Infrastructure](#item-5) ⭐️ 8.0/10
+1. [FANUC Collaborates with Google and NVIDIA on Physical AI for Robots](#item-1) ⭐️ 8.0/10
+2. [Open-Source Software Boosts Robot Intelligence](#item-2) ⭐️ 8.0/10
+3. [Humanoid Partners with Bosch and Schaeffler to Boost Robot Production](#item-3) ⭐️ 8.0/10
+4. [ModelCat Joins 2026 Amazon Devices Climate Tech Accelerator](#item-4) ⭐️ 8.0/10
+5. [AMD to Invest $10B in Taiwan for AI Infrastructure Enhancement](#item-5) ⭐️ 8.0/10
+6. [Brain Corp and UC San Diego Collaborate on Advanced Robotics](#item-6) ⭐️ 7.0/10
+7. [Flipper One Seeks Community Support for AI-Enabled Hardware](#item-7) ⭐️ 8.0/10
+8. [AMD Launches Ryzen AI Max 400 Series with 192 GB Memory](#item-8) ⭐️ 8.0/10
+9. [Hacktuber Unveils ESP32-Powered Pocket Terminal for Electronics](#item-9) ⭐️ 7.0/10
+10. [Tencent Launches OS-Level AI Assistant Marvis](#item-10) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Waymo Halts Atlanta Robotaxi Service Due to Flooding Issues](https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods/) ⭐️ 8.0/10
+## [FANUC Collaborates with Google and NVIDIA on Physical AI for Robots](https://www.therobotreport.com/fanuc-partners-google-advance-physical-ai-robots/) ⭐️ 8.0/10
 
-Waymo has temporarily paused its robotaxi service in Atlanta after its autonomous vehicles struggled to navigate flooded streets. This decision comes as the company assesses the vehicles' ability to handle adverse weather conditions. This incident underscores the challenges autonomous vehicles face in adapting to complex real-world conditions, such as extreme weather. It raises important questions about the readiness of AI-driven vehicles for widespread deployment and their ability to ensure passenger safety. Waymo's decision to pause services highlights the limitations of current autonomous navigation technologies in dealing with unpredictable environmental conditions like flooding. Despite advancements, these systems still require further development to handle such scenarios effectively.
+FANUC has partnered with Google and NVIDIA to enhance the physical AI capabilities of its robotic systems. This collaboration follows increased customer interest since the release of FANUC's physical AI system at IREX in Tokyo. This partnership is significant as it combines the expertise of major technology companies to advance AI-driven robotics. It could lead to improved AI companion devices and more efficient industrial automation, impacting various sectors. FANUC's collaboration with Google and NVIDIA focuses on integrating advanced AI software, sensor systems, and actuation technologies. This integration aims to create more intelligent and responsive robotic systems.
 
-hackernews · mattas · May 21, 16:30 · [Discussion](https://news.ycombinator.com/item?id=48225426)
+rss · The Robot Report · May 21, 17:33
 
-**Background**: Waymo, a subsidiary of Alphabet Inc., operates a fleet of autonomous vehicles across several U.S. cities. These vehicles rely on a combination of sensors, including cameras, radar, and lidar, to navigate and interpret their surroundings. Autonomous navigation involves complex computations to allow vehicles to travel without human intervention, but challenges remain, especially in adverse weather conditions.
+**Background**: FANUC is a leading Japanese company specializing in automation products and services, including robotics and computer numerical control systems. Physical AI involves the integration of AI software with physical systems to create intelligent machines capable of interacting with the physical world. The collaboration with Google and NVIDIA leverages their expertise in AI and computing to enhance FANUC's robotic capabilities.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Waymo">Waymo - Wikipedia</a></li>
-<li><a href="https://www.cnet.com/roadshow/news/waymo-robotaxis-everything-to-know/">Waymo Is Quickly Expanding to More Cities. Everything to Know About the Robotaxi - CNET</a></li>
+<li><a href="https://grokipedia.com/page/Physical_AI">Physical AI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/FANUC_Robotics">FANUC Robotics</a></li>
+<li><a href="https://www.fanucamerica.com/products/robots">Industrial Robots for Manufacturing | FANUC America</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussion reflects mixed sentiments. Some view the incident as a natural part of technology development, while others express skepticism about the readiness of autonomous vehicles. There is also debate on whether AI can overcome such challenges and the implications for future AI advancements.
-
-**Tags**: `#autonomous vehicles`, `#AI challenges`, `#real-world deployment`, `#Waymo`, `#robotaxis`
+**Tags**: `#AI Robotics`, `#Physical AI`, `#Partnerships`, `#Industrial Automation`, `#Google`
 
 ---
 
 <a id="item-2"></a>
-## [FANUC Teams with Google to Enhance Robot AI](https://www.therobotreport.com/fanuc-partners-google-advance-physical-ai-robots/) ⭐️ 8.0/10
+## [Open-Source Software Boosts Robot Intelligence](https://spectrum.ieee.org/open-source-robot-ai-platforms) ⭐️ 8.0/10
 
-FANUC has announced a partnership with Google and NVIDIA to advance the physical AI capabilities of its robots. This collaboration follows increased customer interest since the system's debut at IREX in Tokyo. This partnership is significant as it combines FANUC's robotics expertise with Google's AI technology and NVIDIA's hardware capabilities, potentially leading to more intelligent and efficient robots. It reflects a broader trend of integrating AI into robotics to enhance automation and decision-making processes. FANUC's collaboration with Google leverages state-of-the-art AI technologies, while NVIDIA contributes advanced simulation and intelligent control capabilities. This initiative aims to unlock new levels of robot intelligence and adaptability.
+Open-source software is being increasingly used by companies like Nvidia and Hugging Face to enhance robotic intelligence. These companies have released tools and models aimed at improving robot reasoning and decision-making. The use of open-source software in robotics could significantly lower the barriers to developing intelligent robots, similar to how it accelerated AI development. This trend could lead to more rapid innovations in AI hardware and robotics. The Robot Operating System (ROS) has played a pivotal role in standardizing open-source robotics software. It acts as a framework on top of Linux, handling fundamental robotic tasks and supporting developer tools.
 
-rss · The Robot Report · May 21, 17:33
+rss · IEEE Spectrum Robotics · May 21, 14:00
 
-**Background**: FANUC is a leading global supplier of industrial robots and factory automation systems. Google is renowned for its advancements in artificial intelligence, while NVIDIA is a key player in AI hardware, particularly known for its GPUs. The International Robot Exhibition (IREX) in Tokyo is one of the world's largest and most prominent robotics events, showcasing the latest in robotic technology and innovation.
+**Background**: Open-source robotics involves developing robots using publicly shared hardware and software. The Robot Operating System (ROS), introduced in 2007, became a standard in the field, simplifying the development process by providing a framework for robotic tasks. Companies like Hugging Face and Nvidia are now extending this open-source approach to enhance robot intelligence, focusing on reasoning and decision-making capabilities.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.prnewswire.com/news-releases/fanuc-accelerates-physical-ai-through-collaboration-with-google-302775837.html">FANUC Accelerates Physical AI Through Collaboration with Google</a></li>
-<li><a href="https://www.fanucamerica.com/solutions/physical-ai">Unlocking Physical AI for Next-Generation Robotics | FANUC America</a></li>
-<li><a href="https://robohorizon.com/en-gb/events/robot-exhibition-japan/">iREX 2025: International Robot Exhibition | RoboHorizon</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Open-source_robotics">Open - source robotics - Wikipedia</a></li>
+<li><a href="https://www.openrobotics.org/">Open Robotics</a></li>
+<li><a href="https://github.com/huggingface/lerobot">GitHub - huggingface/lerobot: LeRobot: Making AI for ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#Robotics`, `#Physical AI`, `#Partnership`, `#Edge AI`
+**Tags**: `#open-source`, `#robotics`, `#AI`, `#robot intelligence`, `#software`
 
 ---
 
 <a id="item-3"></a>
-## [Humanoid Teams Up with Bosch and Schaeffler for Robot Production](https://www.therobotreport.com/humanoid-partners-with-bosch-schaeffler-scale-robot-production/) ⭐️ 8.0/10
+## [Humanoid Partners with Bosch and Schaeffler to Boost Robot Production](https://www.therobotreport.com/humanoid-partners-with-bosch-schaeffler-scale-robot-production/) ⭐️ 8.0/10
 
-Humanoid has partnered with Bosch and Schaeffler to scale up the production and distribution of its HMND robot in Europe. This collaboration follows previous partnerships with Siemens. This partnership is significant as it involves major industrial players which could enhance the production capabilities and market reach of Humanoid's robots. It reflects a growing trend of collaboration in the robotics industry to meet increasing demand. The HMND robot is designed for tasks in automotive facilities, integrating with warehouse systems. The involvement of Bosch and Schaeffler, both leaders in industrial technology, suggests a focus on high-quality manufacturing and efficient distribution.
+Humanoid has partnered with Bosch and Schaeffler to expand the production and distribution of its HMND robot in Europe. This partnership signifies a major step in scaling up Humanoid's manufacturing capabilities, potentially increasing its market presence in the European robotics sector. The collaboration involves using Schaeffler's components and Bosch's manufacturing and distribution networks to deploy more than 1,000 robots at Schaeffler facilities.
 
 rss · The Robot Report · May 21, 11:00
 
-**Background**: Humanoid is a company specializing in advanced modular humanoid robots, powered by its VLM and VLA-based KinetIQ framework. Bosch is a global leader in technology and services, while Schaeffler is known for its expertise in industrial automation and robotics. The HMND 01 robot has been tested in automotive factory settings, performing tasks such as picking and integration with warehouse systems.
+**Background**: Humanoid is a UK-based startup known for its HMND humanoid robots, designed for industrial automation. Bosch and Schaeffler are major players in the industrial sector, with Bosch specializing in manufacturing and Schaeffler in automotive components. This partnership leverages their strengths to enhance Humanoid's production capabilities.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://interestingengineering.com/ai-robotics/humanoid-hmnd-01-robot-automotive-factory-test">Humanoid robot HMND 01 follows software in automotive factory test</a></li>
-<li><a href="https://thehumanoid.ai/">Humanoid: Pioneering Humanoid Robots for the Future</a></li>
-<li><a href="https://www.schaeffler.com/content.schaeffler.us/us/products-and-solutions/industrial/industry_solutions/industrial-automation/robotics/index.jsp">Robotics | Schaeffler Group USA Inc.</a></li>
+<li><a href="https://www.forbes.com/sites/johnkoetsier/2026/05/21/humanoids-new-deal-bosch-will-build-its-robots-with-schaeffler-parts/">Humanoid’s New Deal: Bosch Will Build Its Robots With ...</a></li>
+<li><a href="https://www.therobotreport.com/u-k-based-startup-humanoid-unveils-hmnd-01-alpha-mobile-manipulator/">U.K.-based startup Humanoid unveils HMND 01 Alpha mobile ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#robotics`, `#partnership`, `#manufacturing`, `#supply chain`, `#Europe`
+**Tags**: `#robotics`, `#manufacturing`, `#partnership`, `#industrial automation`
 
 ---
 
 <a id="item-4"></a>
-## [Open-Source Software Boosts Robotic Intelligence](https://spectrum.ieee.org/open-source-robot-ai-platforms) ⭐️ 8.0/10
+## [ModelCat Joins 2026 Amazon Devices Climate Tech Accelerator](https://www.edge-ai-vision.com/2026/05/modelcat-selected-for-2026-amazon-devices-climate-tech-accelerator/) ⭐️ 8.0/10
 
-Open-source software is increasingly being used to enhance robotic intelligence. Companies like Hugging Face, Nvidia, and Alibaba have invested in open-source tools and models for robotic reasoning and decision-making. This development could significantly lower the barriers to building intelligent robots, similar to how open-source software accelerated AI development. It could democratize access to advanced robotics capabilities. The Robot Operating System (ROS) has been pivotal in standardizing open-source robotics software. It acts as a framework on top of Linux, facilitating data movement, hardware communication, and path planning.
+ModelCat has been selected to participate in the 2026 Amazon Devices Climate Tech Accelerator. The company will work with Amazon and Plug and Play Tech Center to explore edge AI solutions for reducing energy consumption and carbon footprint. This selection is significant as it highlights the growing importance of edge AI in addressing environmental challenges. It could lead to more sustainable device operations and influence industry standards for energy efficiency. ModelCat will evaluate deployment pathways for edge AI that can be integrated into Amazon devices. The program is equity-free and lasts 16 weeks, focusing on accelerating climate tech innovations.
 
-rss · IEEE Spectrum AI · May 21, 14:00
+rss · Edge AI and Vision Alliance · May 21, 16:52
 
-**Background**: Open-source robotics software has roots in projects from the mid-1990s, but it was largely fragmented until the introduction of ROS in 2007. ROS provided a unified framework that greatly simplified the development process for roboticists. The open-source approach has been successful in AI, leading to rapid advancements, and now similar strategies are being applied to robotics.
+**Background**: Edge AI refers to the deployment of AI algorithms locally on devices rather than in centralized cloud servers, which reduces latency and enhances privacy. The Amazon Devices Climate Tech Accelerator is a program designed to help companies integrate technologies that reduce the carbon impact of devices. It provides mentorship and resources without requiring equity in the participating companies.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.openrobotics.org/">Open Robotics</a></li>
-<li><a href="https://en.wikipedia.org/wiki/List_of_robotics_software">List of robotics software - Wikipedia</a></li>
+<li><a href="https://sustainability.aboutamazon.com/products-services/amazon-devices-climate-tech-accelerator">Amazon Devices Climate Tech Accelerator - Amazon Sustainability</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Edge_AI">Edge AI</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#open-source`, `#robotics`, `#AI`, `#robotic intelligence`, `#software`
+**Tags**: `#edge AI`, `#climate tech`, `#AI hardware`, `#energy efficiency`, `#Amazon`
 
 ---
 
 <a id="item-5"></a>
-## [AMD's $10B Investment in Taiwan for AI Infrastructure](https://www.eetimes.com/amd-plans-10b-investment-in-taiwan-to-boost-ai-infrastructure/) ⭐️ 8.0/10
+## [AMD to Invest $10B in Taiwan for AI Infrastructure Enhancement](https://www.eetimes.com/amd-plans-10b-investment-in-taiwan-to-boost-ai-infrastructure/) ⭐️ 8.0/10
 
-AMD announced a $10 billion investment in Taiwan to enhance AI infrastructure using TSMC's 2-nm process for high-performance computing (HPC) chips. This investment is significant as it strengthens AMD's position in the AI hardware market and leverages cutting-edge semiconductor technology, which is crucial for future AI applications. AMD's investment will focus on ramping up production of HPC chips using TSMC's advanced 2-nm process, which is expected to begin mass production in the second half of 2026.
+AMD has announced a $10 billion investment in Taiwan aimed at enhancing AI infrastructure. This investment will focus on high-performance computing (HPC) chips using TSMC's 2-nm process. This investment signifies AMD's strong commitment to advancing AI hardware capabilities. The use of TSMC's cutting-edge 2-nm process is crucial for developing efficient AI hardware, which is essential for edge deployment and high-performance applications. AMD's investment leverages TSMC's 2-nm process, which is expected to begin mass production in the second half of 2026. This process uses the MBCFET architecture based on the surround gate (GAA) process, offering significant improvements in performance and efficiency.
 
 rss · EE Times · May 21, 16:34
 
-**Background**: High-performance computing (HPC) refers to systems with high-speed processing power and large memory capacity, enabling massive parallel processing. TSMC's 2-nm process is a cutting-edge semiconductor manufacturing technology that promises improved performance and efficiency. AMD's collaboration with TSMC highlights the importance of advanced manufacturing processes in the competitive AI hardware market.
+**Background**: High-performance computing (HPC) involves the use of supercomputers and computer clusters to solve complex computational problems. TSMC, a leading semiconductor manufacturer, is developing its 2-nm process, which is anticipated to surpass the capabilities of its 3-nm and 5-nm processes. This advancement is crucial for AI applications, which require significant computational power and efficiency.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://www.linkedin.com/pulse/tech-news-tsmc-2nm-process-begin-q4-2025-monthly-capacity-nrmac">Tech News: TSMC 2 nm Process to Begin Q4 2025, Monthly Capacity...</a></li>
 <li><a href="https://www.gizchina.com/tech/tsmc-2nm-process-makes-a-significant-breakthrough">TSMC 2 nm process makes a significant breakthrough</a></li>
-<li><a href="https://www.nvidia.com/en-us/glossary/high-performance-computing/">What is High-Performance Computing (HPC)? | NVIDIA Glossary</a></li>
+<li><a href="https://wccftech.com/tsmc-2nm-process-surpass-3nm-and-5nm-revenue-by-q3-2026-due-to-ai-growth/">TSMC ’s 2 nm Process To Surpass The Company ’s 3nm & 5nm...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI hardware`, `#semiconductors`, `#AMD`, `#TSMC`, `#investment`
+**Tags**: `#AI hardware`, `#investment`, `#TSMC`, `#HPC`, `#semiconductors`
+
+---
+
+<a id="item-6"></a>
+## [Brain Corp and UC San Diego Collaborate on Advanced Robotics](https://www.therobotreport.com/brain-corp-partners-uc-san-diego-help-robots-operate-complex-environments/) ⭐️ 7.0/10
+
+Brain Corp has announced a partnership with UC San Diego to enhance robotic operations in complex environments. This collaboration aims to advance semantic mapping and contextual intelligence for autonomous robots. This partnership is significant as it could lead to advancements in how robots navigate and operate in complex commercial and industrial settings. It impacts the AI and robotics industry by potentially improving the efficiency and capabilities of autonomous systems. Brain Corp's existing deployment of over 50,000 robots globally provides a substantial base for testing and implementing new technologies developed through this collaboration. The focus will be on semantic mapping and contextual intelligence.
+
+rss · The Robot Report · May 21, 20:07
+
+**Background**: Brain Corp is a leading company in AI robotics, known for its autonomy platform for robotic applications. UC San Diego is a prominent research university with expertise in technology and engineering. Semantic mapping involves creating a map that includes not just spatial information but also contextual data, which is crucial for robots to understand and interact with their environments effectively.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.therobotreport.com/brain-corp-partners-uc-san-diego-help-robots-operate-complex-environments/">Brain Corp partners with UC San Diego to help robots operate ...</a></li>
+<li><a href="https://www.braincorp.com/">Brain Corp : Robots , AI, and autonomous technology for smarter...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI Robotics`, `#Partnership`, `#Complex Environments`, `#Robotics Deployment`
+
+---
+
+<a id="item-7"></a>
+## [Flipper One Seeks Community Support for AI-Enabled Hardware](https://blog.flipper.net/flipper-one-we-need-your-help/) ⭐️ 8.0/10
+
+The Flipper One project is seeking community support to develop its new features, including the use of the RK3576 chip for AI workloads. This initiative follows the success of the Flipper Zero and aims to expand its capabilities. This development is significant as it could enhance the capabilities of AI companion devices and edge AI hardware. The use of the RK3576 chip may enable more sophisticated AI applications in portable devices. The RK3576 chip is a high-performance processor capable of delivering 6 TOPS AI performance, which could be pivotal for AI-accelerated workloads. However, there are concerns about feature creep and the practicality of AI features in a small, battery-powered device.
+
+hackernews · sandebert · May 21, 11:03 · [Discussion](https://news.ycombinator.com/item?id=48220647)
+
+**Background**: Flipper One is a follow-up to the Flipper Zero, a popular tool in the hardware hacking community. The Flipper Zero is known for its versatility and user-friendly design, making it a favorite among hackers and makers. The new Flipper One aims to build on this foundation by integrating more advanced features, including AI capabilities, to appeal to a broader audience.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://docs.flipper.net/one">Welcome - Flipper One Documentation</a></li>
+<li><a href="https://www.rockchips.net/product/rk3576">RK3576 - Rockchips.net</a></li>
+<li><a href="https://www.zdnet.com/article/flipper-one-hacking-tool-tiny-linux-pc/">The Flipper One may be the ultimate Linux PC for hackers in... | ZDNET</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community members express mixed feelings about the project's direction. Some are concerned about feature creep and the practicality of AI features, while others are excited about the potential of the RK3576 chip for AI workloads. There is also frustration over the lack of clear guidance on how the community can help.
+
+**Tags**: `#AI hardware`, `#edge AI`, `#Flipper One`, `#community support`, `#RK3576 chip`
+
+---
+
+<a id="item-8"></a>
+## [AMD Launches Ryzen AI Max 400 Series with 192 GB Memory](https://www.techpowerup.com/349218/amd-launches-the-ryzen-ai-max-400-series-processors-strix-halo-gets-a-memory-upgrade) ⭐️ 8.0/10
+
+AMD has introduced the Ryzen AI Max 400 series processors, which feature an increased memory capacity of up to 192 GB. The processors are designed for AI development scenarios and include enhanced AI capabilities. This release is significant as it enhances the capabilities of AI hardware, particularly for edge and consumer devices, aligning with the growing trend of AI companion hardware. It provides developers with more resources to run large language models efficiently. The Ryzen AI Max 400 series includes three PRO models, with the flagship 495 featuring a 16-core CPU and 40CU integrated graphics. The NPU offers up to 55 TOPS of compute power, a 10% increase over previous generations.
+
+telegram · zaihuapd · May 21, 08:15
+
+**Background**: AMD's Strix Halo platform is known for its high-performance mobile processors, which are part of the Ryzen AI Max lineup. These processors are designed to support AI workloads with enhanced neural processing capabilities. The increase in memory capacity and processing power allows for the efficient handling of large AI models, which are crucial for modern AI applications.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.servethehome.com/framework-desktop-review-a-solid-amd-strix-halo/">Framework Desktop Review A Solid AMD Strix Halo - ServeTheHome</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AMD_XDNA">AMD XDNA - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI hardware`, `#processors`, `#AMD`, `#edge AI`, `#memory upgrade`
+
+---
+
+<a id="item-9"></a>
+## [Hacktuber Unveils ESP32-Powered Pocket Terminal for Electronics](https://www.hackster.io/news/a-pocket-terminal-for-electronics-projects-e68e655fc414) ⭐️ 7.0/10
+
+Hacktuber has introduced a customizable handheld computer powered by ESP32, designed as a portable command-line tool for electronics projects. This development is significant as it offers a novel approach to portable electronics project management, potentially impacting embedded AI and edge computing by providing a versatile tool for developers. The device utilizes the ESP32 microcontroller, known for its low-cost and energy-efficient capabilities, integrating Wi-Fi and Bluetooth for versatile connectivity.
+
+rss · Hackster News · May 21, 17:59
+
+**Background**: The ESP32 is a family of low-cost, energy-efficient microcontrollers developed by Espressif Systems, featuring integrated Wi-Fi and Bluetooth capabilities. It is widely used in IoT applications due to its versatility and cost-effectiveness. Embedded AI refers to AI algorithms running on embedded systems, which are specialized computer systems designed to perform dedicated functions within larger systems.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/ESP32">ESP32</a></li>
+<li><a href="https://www.espressif.com/en/products/socs/esp32">ESP32 Wi-Fi & Bluetooth SoC | Espressif Systems</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#embedded AI`, `#edge computing`, `#hardware projects`, `#ESP32`
+
+---
+
+<a id="item-10"></a>
+## [Tencent Launches OS-Level AI Assistant Marvis](https://finance.sina.com.cn/jjxw/2026-05-21/doc-inhyrmmu5949795.shtml) ⭐️ 8.0/10
+
+Tencent has launched Marvis, an OS-level AI assistant available for download without an invitation. Marvis integrates system, files, applications, and cross-device connections into a unified AI layer. Marvis represents a significant advancement in AI companion devices and edge AI, emphasizing privacy with local execution capabilities. This could impact sensitive fields like finance and legal sectors by offering secure, offline AI interactions. Marvis features both efficiency and privacy modes, with the latter using on-device large models to ensure all data processing is local and offline. Users receive 10 million free tokens daily for usage.
+
+telegram · zaihuapd · May 21, 10:00
+
+**Background**: OS-level AI assistants are designed to function as an integral layer of the operating system, providing continuous and seamless AI support across devices. Edge AI refers to AI processing done locally on devices rather than in centralized data centers, enhancing privacy and reducing latency. This approach is particularly beneficial for applications requiring real-time data processing and high privacy standards.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://aixsociety.com/the-rise-of-os-level-ai-assistants-from-personal-agents-like-clawdbot-to-enterprise-systems-like-dingtalk-real/">The Rise of OS-Level AI Assistants: From Personal Agents like Clawdbot to Enterprise Systems like DingTalk Real - AiX Society 人工智能應用研究學會</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Edge_AI">Edge AI</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI Assistant`, `#Edge AI`, `#Privacy`, `#Tencent`, `#AI Companion`
 
 ---
