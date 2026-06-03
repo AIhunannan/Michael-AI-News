@@ -3,78 +3,69 @@ layout: default
 title: "Nannan Daily AI Briefing: 3 Important Signals"
 date: 2026-06-03 12:01:00 +0800
 lang: en
-description: "Selected 3 important signals from 84 items, prioritized through the aiwei.ai CTO lens: Kickstarter, AI consumer hardware, edge AI, AI companionship, robotics, and AI toys."
+description: "Selected 3 important signals from 80 items, prioritized through the aiwei.ai CTO lens: Kickstarter, AI consumer hardware, edge AI, AI companionship, robotics, and AI toys."
 ---
 
 # Nannan Daily AI Briefing: 3 Important Signals
 
-> Selected 3 important signals from 84 items, prioritized through the aiwei.ai CTO lens: Kickstarter, AI consumer hardware, edge AI, AI companionship, robotics, and AI toys.
+> Selected 3 important signals from 80 items, prioritized through the aiwei.ai CTO lens: Kickstarter, AI consumer hardware, edge AI, AI companionship, robotics, and AI toys.
 
 ---
 
 ## Kickstarter / Crowdfunding Product Radar
 
-No recent crowdfunding product signal was selected today.
+- [Camtells: The First AI Camera That Understands Your Space](http://www.kicktraq.com/projects/948304531/camtells-the-first-ai-camera-that-understands-your-space/) - 6.0/10, radar 9.8
+- [Cyberdecks are having a moment, rejecting big tech surveillance with style and substance](https://techcrunch.com/2026/06/02/cyberdeck-tiktok-trend-reject-big-tech/) - 5.0/10, radar 8.8
+- [GL.iNet Comet Q: Cross-OS USB-C Remote Wake/Control Device Smashes Kickstarter Goal](http://www.kicktraq.com/projects/glinet/comet-q/) - 5.0/10, radar 8.8
 
 ---
 
-1. [ENERZAi Runs BitNet b1.58 2B on Qualcomm Hexagon NPU with Custom Kernels](#item-1) ⭐️ 9.0/10
-2. [GlobalFoundries Closes Synopsys ARC IP Deal, Unites with MIPS for Physical AI](#item-2) ⭐️ 8.0/10
-3. [Physical AI Pushes Chipmakers Up the Value Chain](#item-3) ⭐️ 7.0/10
+1. [Camtells: The First AI Camera That Understands Your Space](#item-1) ⭐️ 6.0/10
+2. [Cyberdecks are having a moment, rejecting big tech surveillance with style and substance](#item-2) ⭐️ 5.0/10
+3. [GL.iNet Comet Q: Cross-OS USB-C Remote Wake/Control Device Smashes Kickstarter Goal](#item-3) ⭐️ 5.0/10
 
 ---
 
 <a id="item-1"></a>
-## [ENERZAi Runs BitNet b1.58 2B on Qualcomm Hexagon NPU with Custom Kernels](https://www.edge-ai-vision.com/2026/06/running-bitnet-on-qualcomm-hexagon-with-custom-1-58-kernels/) ⭐️ 9.0/10
+## [Camtells: The First AI Camera That Understands Your Space](http://www.kicktraq.com/projects/948304531/camtells-the-first-ai-camera-that-understands-your-space/) ⭐️ 6.0/10
 
-ENERZAi has successfully deployed Microsoft's BitNet b1.58 2B ternary large language model on the Qualcomm QCS6490 Hexagon NPU using the QNN (Qualcomm AI Engine Direct) backend, relying on custom 1.58-bit kernels to enable native ternary inference on production edge AI silicon. This is a concrete validation that sub-2-bit (ternary) LLM inference can run efficiently on mainstream commercial edge NPUs, with major implications for on-device memory footprint, energy efficiency, and the product feasibility of compact LLMs on Hexagon-based devices such as IoT, robotics, and automotive platforms. The deployment targets the QCS6490 SoC's Hexagon NPU via the QNN SDK, which exposes backends including the HTP (NPU), CPU, and GPU; ENERZAi had to write custom kernels because standard QNN operators do not natively support 1.58-bit ternary weight representation, highlighting that native ternary hardware support is still absent even on modern NPUs.
+A Kickstarter campaign for Camtells, a 360° AI camera with auto director, smart object library, and local-storage/no-subscription model, currently at 26% of its funding goal.
 
-rss · Edge AI and Vision Alliance · Jun 2, 08:00
+rss · Kicktraq Kickstarter Technology · Jun 2, 15:00
 
-**Background**: BitNet b1.58 is Microsoft's open-source native 1-bit LLM architecture (2B parameters trained on 4T tokens) that constrains weights to ternary values of {-1, 0, +1}, which theoretically requires only about 1.58 bits per weight and dramatically reduces memory and compute versus standard FP16 or INT8 LLMs. The Qualcomm Hexagon NPU is a widely deployed DSP/NPU architecture in Snapdragon SoCs, programmed through the QNN (Qualcomm AI Engine Direct) SDK that supports HTP, CPU, and GPU backends. Running ternary models on such NPUs typically requires custom kernel work, since built-in operators target INT8, INT16, or FP16/FP32 datatypes rather than ternary ones.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/microsoft/BitNet">GitHub - microsoft/BitNet: Official inference framework for 1-bit LLMs</a></li>
-<li><a href="https://arxiv.org/html/2504.12285v1">BitNet b1.58 2B4T Technical Report - arXiv.org</a></li>
-<li><a href="https://www.qualcomm.com/developer/software/hexagon-npu-sdk">Hexagon NPU SDK | Qualcomm Developer</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Qualcomm Hexagon`, `#BitNet`, `#edge AI`, `#NPU`, `#1.58-bit quantization`, `#QCS6490`, `#QNN`, `#on-device LLM`
+**Tags**: `#crowdfunding`, `#AI-camera`, `#consumer-hardware`, `#edge-AI`, `#smart-home`
 
 ---
 
 <a id="item-2"></a>
-## [GlobalFoundries Closes Synopsys ARC IP Deal, Unites with MIPS for Physical AI](https://www.edge-ai-vision.com/2026/06/globalfoundries-completes-acquisition-of-synopsys-processor-ip-solutions-business-delivering-a-holistic-technology-platform-for-physical-ai/) ⭐️ 8.0/10
+## [Cyberdecks are having a moment, rejecting big tech surveillance with style and substance](https://techcrunch.com/2026/06/02/cyberdeck-tiktok-trend-reject-big-tech/) ⭐️ 5.0/10
 
-GlobalFoundries (Nasdaq: GFS) announced on June 2, 2026, that it has completed its acquisition of Synopsys' ARC Processor IP Solutions business and is integrating it with its MIPS RISC-V subsidiary to form a unified IP-and-foundry platform explicitly targeting Physical AI, automotive, industrial, and agentic edge silicon. This vertical integration of processor IP with foundry manufacturing gives GlobalFoundries a distinctive competitive position in the edge AI silicon market, potentially simplifying supply chains and accelerating time-to-market for chip designers building Physical AI products. It also signals that major foundries are now treating Physical AI as a distinct, platform-level product category rather than a niche application. The deal was first announced in January 2026, and the closing transfers Synopsys' engineering and design teams to GlobalFoundries. ARC processors are configurable and extensible IP cores widely used in SoCs for storage, automotive, mobile, and IoT, while MIPS brings RISC-V architecture and software-to-silicon expertise, creating a dual-ISA offering (RISC-V + ARC).
+DIY cyberdeck communities are gaining mainstream attention as enthusiasts build custom, privacy-focused portable computing devices, reflecting a cultural shift toward on-device, anti-surveillance hardware.
 
-rss · Edge AI and Vision Alliance · Jun 2, 18:27
+rss · TechCrunch Hardware · Jun 2, 20:20
 
-**Background**: Physical AI is a term popularized by NVIDIA that refers to AI systems designed to operate safely and reliably in dynamic real-world environments, combining sensing, compute, and connectivity at the edge. Agentic edge AI extends this concept to autonomous, goal-directed AI agents that can reason and act locally with minimal cloud dependence. Synopsys' ARC processor IP is a long-established family of configurable cores used across embedded markets, while MIPS is a RISC-V instruction set architecture company that GlobalFoundries had previously acquired, making this a consolidation of two complementary IP portfolios under one foundry.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://gf.com/gf-press-release/globalfoundries-to-acquire-synopsys-processor-ip-solutions-business/">GlobalFoundries to Acquire Synopsys’ Processor IP Solutions ...</a></li>
-<li><a href="https://www.sitime.com/company/newsroom/blog/what-edge-computing-edge-ai-and-physical-ai">Edge Computing, Edge AI & Physical AI| SiTime</a></li>
-<li><a href="https://en.wikipedia.org/wiki/ARC_(processor)">ARC (processor) - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#edge-ai`, `#physical-ai`, `#globalfoundries`, `#risc-v`, `#semiconductor-M&A`
+**Tags**: `#cyberdecks`, `#DIY hardware`, `#edge computing`, `#privacy`, `#consumer hardware trends`
 
 ---
 
 <a id="item-3"></a>
-## [Physical AI Pushes Chipmakers Up the Value Chain](https://www.eetimes.com/physical-ai-pushes-chipmakers-up-the-value-chain/) ⭐️ 7.0/10
+## [GL.iNet Comet Q: Cross-OS USB-C Remote Wake/Control Device Smashes Kickstarter Goal](http://www.kicktraq.com/projects/glinet/comet-q/) ⭐️ 5.0/10
 
-European semiconductor CEOs at the TSMC European Symposium discussed how Physical AI is driving chipmakers to move up the value chain, signaling strategic shifts in the AI-chip ecosystem.
+GL.iNet launched the Comet Q on Kickstarter, described as the world's first cross-OS remote control for mobile devices including laptops, phones, Mac Mini, and tablets, connected via USB-C. The campaign has raised approximately $242,493, reaching 2,425% of its modest $10,000 funding goal. This product matters for anyone needing to remotely manage headless or distributed computing devices, from homelab enthusiasts to IT administrators. While not an AI-specific product, it addresses a genuine pain point in remote device management, and the massive oversubscription signals strong market demand for simple cross-platform KVM-like solutions. The Comet Q operates over a USB-C cable and claims cross-OS compatibility, meaning it can wake, unlock, and control devices regardless of their operating system. GL.iNet is a Hong Kong-based company founded in 2010, primarily known for travel routers and networking gateways, and this is a notable departure from their core networking product line.
 
-rss · EE Times · Jun 2, 14:00
+rss · Kicktraq Kickstarter Technology · Jun 2, 14:59
 
-**Tags**: `#physical-ai`, `#semiconductors`, `#tsmc`, `#edge-ai`, `#chip-strategy`
+**Background**: Remote wake-over-USB is a long-established capability in the USB specification, where a USB device can signal its host to resume from a low-power sleep state. The Linux kernel has supported USB power management and remote wakeup since version 2.6.23, though historically only a limited set of drivers implemented it. KVM (keyboard, video, mouse) over IP solutions have existed for servers for years, but extending similar functionality to consumer mobile devices and laptops over a simple USB-C cable is a relatively new and less saturated market segment.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.gl-inet.com/products/">GL . iNet Routers and Gateways Selection - GL . iNet</a></li>
+<li><a href="https://www.kernel.org/doc/html/v6.6/driver-api/usb/power-management.html">Power Management for USB — The Linux Kernel documentation</a></li>
+<li><a href="https://tracxn.com/d/companies/glinet/__UlzY4Eq1CpagZPlGT6tfIT0Alvk-zQdvh_093ahm7w0">GL . iNet - 2026 Company Profile, Team & Competitors - Tracxn</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#kickstarter`, `#crowdfunding`, `#GL.iNet`, `#remote-control`, `#USB-C-hardware`
 
 ---
